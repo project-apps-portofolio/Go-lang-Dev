@@ -35,6 +35,60 @@ go get -u "github.com/go-sql-driver/mysql"
     └── structs.go
 
 ```
+
+
+# RESULT API
+
+### Persons
+```
+Request:
+Method: GET 
+    - Endpoint: /api/v1/persons
+Response:
+    ```
+    {
+        "count": 4,
+        "result": [
+            {
+            "ID": 1,
+            "CreatedAt": "2021-02-24T14:34:30+07:00",
+            "UpdatedAt": "2021-02-24T14:34:30+07:00",
+            "DeletedAt": null,
+            "FirstName": "LISA",
+            "LastName": "HIMURA"
+            },
+            {
+            "ID": 2,
+            "CreatedAt": "2021-02-24T14:50:46+07:00",
+            "UpdatedAt": "2021-02-24T14:50:46+07:00",
+            "DeletedAt": null,
+            "FirstName": "",
+            "LastName": ""
+            },
+            {
+            "ID": 3,
+            "CreatedAt": "2021-02-24T14:51:03+07:00",
+            "UpdatedAt": "2021-02-24T14:51:03+07:00",
+            "DeletedAt": null,
+            "FirstName": "",
+            "LastName": ""
+            },
+            {
+            "ID": 4,
+            "CreatedAt": "2021-02-24T14:51:25+07:00",
+            "UpdatedAt": "2021-02-24T14:51:25+07:00",
+            "DeletedAt": null,
+            "FirstName": "asd",
+            "LastName": "asda"
+            }
+        ]
+    }
+```
+```
 # REFERENCE
 
--[GOLANG REST API](https://medium.com/skyshidigital/golang-restapi-untuk-pemula-ef1c345b3ef5)
+**BELAJAR GOLANG**
+[BELAJAR GOLANG](https://dasarpemrogramangolang.novalagung.com/1-berkenalan-dengan-golang.html)
+
+**TUTORIAL REST API**
+[GOLANG REST API](https://medium.com/skyshidigital/golang-restapi-untuk-pemula-ef1c345b3ef5)
