@@ -1,5 +1,9 @@
 # SIMPLE REST API GO-LANG WITH MSYQL
 
+## HOW TO INSTALL GOLAND ON UBUNTU
+
+[INSTALL GOLANG](https://golang.org/doc/install)
+
 ## HOW TO CREATE
 
 **FIRST CREATE FOLDER AND MOD REST API**
@@ -12,13 +16,14 @@
 
 ## REQUIRMENT LIBRARY
 
-```
-go get -u "github.com/gin-gonic/gin"
-go get -u "github.com/jinzhu/gorm"
-go get -u "github.com/jinzhu/gorm/dialects/mysql"
-go get -u "github.com/go-sql-driver/mysql"
+``go get -u "github.com/gin-gonic/gin"``
 
-```
+``go get -u "github.com/jinzhu/gorm"``
+
+``go get -u "github.com/jinzhu/gorm/dialects/mysql"``
+
+``go get -u "github.com/go-sql-driver/mysql"``
+
 ## STRUCTURE FOLDER DATA
 
 
@@ -40,6 +45,9 @@ go get -u "github.com/go-sql-driver/mysql"
 # RESULT API
 
 ### Persons
+
+``URL : http://localhost:3000/api/v1/perons/``
+
 ```
 Request:
 Method: GET 
