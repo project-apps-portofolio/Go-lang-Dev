@@ -45,7 +45,6 @@ Request:
 Method: GET 
     - Endpoint: /api/v1/persons
 Response:
-    ```
     {
         "count": 4,
         "result": [
@@ -83,7 +82,6 @@ Response:
             }
         ]
     }
-```
 ```
 # REFERENCE
 
